@@ -1,0 +1,279 @@
+        <div id="cont_wrapper">
+            <div id="page_tit" class="sp_tab_text">
+                <h2 class="container">
+                    お問合せ・お申込み<span>contact</span>
+                </h2>
+
+                <ul class="bread_li clearfix">
+                    <li>
+                        <a href="#">
+                            トップページ
+                        </a>
+                    </li>
+
+                    <li>
+                        お問合せ・お申込み
+                    </li>
+                </ul>
+            </div>
+            <!-- #page_tit -->
+            <div class="topicPath-frame">
+                <div class="container center">
+                    <div class="w_main topicPath-inner">
+                        <div id="topicPath">
+                            <ul>
+                                <li><a href="#"><span>トップページ</span></a></li>
+                                <li><span>お問合せ・お申込み</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+           <div id="content_area" class="container clearfix">
+                <main id="main_cont">
+                    <section id="sec01" class="con_Ma_To con_Pa_Bo bg_net">
+                        <form name="contact_form" id="contact_form" class="mt20">
+                            <div class="main_title title_bottom">
+                                <div class="inner clearfix">
+                                    <h3 class="long_h3_title">お問合せ・お申込みフォーム</h3>
+                                </div>
+                            </div>
+
+                            <div class="content_form">
+
+                            <div class="tst_box">
+                                <p>下記フォーム入力後「<a href="/contents/pp.html" class="hov a_txt blank_a" target="_blank">プライバシーポリシー</a>」をご確認のうえ、「入力内容確認」ボタンを押してください。</p>
+                            </div>
+
+                            <h4 class="tit_mid">お問い合わせ内容</h4>
+                            <div class="table_style con_Ma_Bo">
+                                <dl>
+                                    <dt class="req bold">
+                                        お問合せ項目
+                                    </dt>
+                                    <dd>
+                                        <ul>
+                                            <li>
+                                                <label>
+                                                    <input type="radio" name="item" value="お問合せ・ご相談" class="check" data-alertText="お問い合わせ項目を選択してください">お問合せ・ご相談
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label>
+                                                    <input type="radio" name="item" value="入所のお申込み" class="check" data-alertText="お問い合わせ項目を選択してください">入所のお申込み
+                                                </label>
+                                            </li>
+
+                                            <li>
+                                                <label>
+                                                    <input type="radio" name="item" value="見学のお申込み" class="check" data-alertText="お問い合わせ項目を選択してください">見学のお申込み
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+
+                                <dl>
+                                    <dt class="req bold">
+                                        お問合せ教室
+                                    </dt>
+                                    <dd>
+                                        <select name="school" class="mt10 check" data-alertText="お問合せ教室を選択してください">
+                                            <option value="" selected="">該当の教室を選択してください</option>
+                                            <option value="東灘教室">東灘教室</option>
+                                            <option value="六甲道教室">六甲道教室</option>
+                                            <option value="その他">その他</option>
+                                        </select>
+                                    </dd>
+                                </dl>
+
+                                <dl>
+                                    <dt class="any bold">内容</dt>
+                                    <dd>
+                                        <p style="
+                                        color: #ff2222;
+                                        margin: 0 0 10px;
+                                        ">※見学のお申込みの方は見学希望日も含めてご記入ください。</p>
+                                        <textarea name="comment" rows="6" class="resize" style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 138px;"></textarea>
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <h4 class="tit_mid">お客様情報</h4>
+                            <div class="table_style">
+                                <dl>
+                                    <dt class="req bold">
+                                        お名前
+                                    </dt>
+                                    <dd>
+                                        <input type="text" name="name" autocomplete="name" placeholder="お名前" class="input_ll check" data-alertText="お名前を入力してください">
+                                    </dd>
+                                </dl>
+
+                                <dl>
+                                    <dt class="req bold">
+                                        フリガナ
+                                    </dt>
+                                    <dd>
+                                        <input type="text" name="ruby" value="" class="input_ll check" placeholder="フリガナ" data-alertText="フリガナを入力してください">
+                                    </dd>
+                                </dl>
+
+                                <dl>
+                                    <dt class="req bold">
+                                        住所
+                                    </dt>
+                                    <dd>
+                                        <input type="text" name="post_num" autocomplete="postal-code" value="" class="input_s check" placeholder="郵便番号" data-alertText="郵便番号を入力してください">
+                                        <br>
+
+                                    <select name="state" class="mt10 check" data-alertText="都道府県を選択してください">
+                                        <option value="" selected="">都道府県を選択してください</option>
+                                        <optgroup label="北海道・東北地方">
+                                            <option value="北海道">北海道</option>
+                                            <option value="青森県">青森県</option>
+                                            <option value="岩手県">岩手県</option>
+                                            <option value="秋田県">秋田県</option>
+                                            <option value="宮城県">宮城県</option>
+                                            <option value="山形県">山形県</option>
+                                            <option value="福島県">福島県</option>
+                                        </optgroup>
+                                        <optgroup label="関東地方">
+                                            <option value="東京都">東京都</option>
+                                            <option value="神奈川県">神奈川県</option>
+                                            <option value="埼玉県">埼玉県</option>
+                                            <option value="千葉県">千葉県</option>
+                                            <option value="茨城県">茨城県</option>
+                                            <option value="栃木県">栃木県</option>
+                                            <option value="群馬県">群馬県</option>
+                                        </optgroup>
+                                        <optgroup label="甲信越地方">
+                                            <option value="山梨県">山梨県</option>
+                                            <option value="長野県">長野県</option>
+                                            <option value="新潟県">新潟県</option>
+                                        </optgroup>
+                                        <optgroup label="東海地方">
+                                            <option value="静岡県">静岡県</option>
+                                            <option value="愛知県">愛知県</option>
+                                            <option value="岐阜県">岐阜県</option>
+                                            <option value="三重県">三重県</option>
+                                        </optgroup>
+                                        <optgroup label="北陸地方">
+                                            <option value="富山県">富山県</option>
+                                            <option value="石川県">石川県</option>
+                                            <option value="福井県">福井県</option>
+                                        </optgroup>
+                                        <optgroup label="近畿地方">
+                                            <option value="大阪府">大阪府</option>
+                                            <option value="京都府">京都府</option>
+                                            <option value="奈良県">奈良県</option>
+                                            <option value="滋賀県">滋賀県</option>
+                                            <option value="和歌山県">和歌山県</option>
+                                            <option value="兵庫県">兵庫県</option>
+                                        </optgroup>
+                                        <optgroup label="中国地方">
+                                            <option value="岡山県">岡山県</option>
+                                            <option value="広島県">広島県</option>
+                                            <option value="鳥取県">鳥取県</option>
+                                            <option value="島根県">島根県</option>
+                                            <option value="山口県">山口県</option>
+                                        </optgroup>
+                                        <optgroup label="四国地方">
+                                            <option value="香川県">香川県</option>
+                                            <option value="徳島県">徳島県</option>
+                                            <option value="愛媛県">愛媛県</option>
+                                            <option value="高知県">高知県</option>
+                                        </optgroup>
+                                        <optgroup label="九州・沖縄地方">
+                                            <option value="福岡県">福岡県</option>
+                                            <option value="佐賀県">佐賀県</option>
+                                            <option value="長崎県">長崎県</option>
+                                            <option value="大分県">大分県</option>
+                                            <option value="熊本県">熊本県</option>
+                                            <option value="宮崎県">宮崎県</option>
+                                            <option value="鹿児島県">鹿児島県</option>
+                                            <option value="沖縄県">沖縄県</option>
+                                        </optgroup>
+                                    </select>
+
+
+                                        <br>
+                                        <input type="text" name="city" autocomplete="address-level2" value="" class="input_l mt10 check" placeholder="市区町村" data-alertText="市区町村を入力してください">
+                                        <br>
+                                        <input type="text" name="address" autocomplete="address-line1" value="" class="input_l mt10 check" placeholder="番地等" data-alertText="番地等を入力してください">
+                                        <br>
+                                        <input type="text" name="apartment" autocomplete="address-line2" value="" class="input_ll mt10" placeholder="アパート／マンション名等">
+                                    </dd>
+                                </dl>
+
+
+                                <dl>
+                                    <dt class="req bold">
+                                        電話番号
+                                    </dt>
+                                    <dd>
+                                        <input type="tel" name="tel" autocomplete="tel" value="" class="input_ll check" placeholder="例）08012345678" data-alertText="電話番号を入力してください">
+                                    </dd>
+                                </dl>
+
+                                <dl>
+                                    <dt class="req bold">
+                                        メールアドレス
+                                    </dt>
+                                    <dd>
+                                        <input type="email" name="email" autocomplete="email" value="" class="input_lll check" placeholder="例）aaaa@aa.aa" data-alertText="メールアドレスを入力してください">
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <div class="send_box">
+                                <p class="send_check">
+                                    <label>
+                                        <input type="checkbox" value="1" name="check" class="check" data-alertText="プライバシーポリシーに同意してください">
+                                        「<a href="/contents/pp.html" target="_blank" class="hov a_txt blank_a mode02">プライバシーポリシー</a>」に同意する
+                                    </label>
+                                </p>
+                                <p class="send_btn mt20">
+                                    <input type="button" value="入力内容確認" class="btn_cont" name="send-btn">
+                                </p>
+                            </div>
+                        </div>
+                        </form>
+                    </section>
+
+                </main>
+                <!-- #main_cont -->
+           </div>
+            <!-- #content_area -->
+       </div>
+        <!-- #cont_wrapper -->
+        <!--
+==============================
+　 #form_script
+==============================
+ -->
+
+<script type="text/javascript">
+    $(function(){
+        var err;
+        $("#contact_form input[type='button']").on("click",function(){
+            err = "";
+            err = err_alert("#contact_form");
+            if(!err){
+                $.ajax({
+                    type : "POST",
+                    url : "/inquiry/check.php",
+                    data : "type=send_data&"+$("#contact_form").serialize(),
+                    success : function(){
+                        location.href = '/inquiry/check.php';
+                    }
+                });
+            }else{
+                alert(err);
+            }
+        });
+    });
+    </script>
