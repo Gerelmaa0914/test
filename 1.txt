@@ -277,3 +277,24 @@
         });
     });
     </script>
+<script type="text/javascript">
+    $(function(){
+        var err;
+        $("#contact_form input[type='button']").on("click",function(){
+            err = "";
+            err = err_alert("#contact_form");
+            if(!err){
+                $.ajax({
+                    type : "POST",
+                    url : "/inquiry/check.php",
+                    data : "type=send_data&"+$("#contact_form").serialize(),
+                    success : function(){
+                        location.href = '/inquiry/check.php';
+                    }
+                });
+            }else{
+                alert(err);
+            }
+        });
+    });
+    </script>
